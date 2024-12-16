@@ -1,0 +1,106 @@
+html,body{
+    display: flex;
+    background-image: url('../Image/bgg.jpg!sw800.jpg');
+    background-color: black;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav ul{
+    text-decoration: none;
+    list-style-type: none;
+    height: 25px;
+    width: 950px;
+   font-size: 19px;
+    padding-right: -30px;
+    display: flex;
+    border-radius: 10px;
+    z-index: 1;
+    margin-left: 20%;
+    color: rgb(232, 224, 224);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+li{
+    list-style: none;
+    width: 600px;
+    padding: 12px;
+    padding-left: 10px;   
+    transition: 0.5s ease-out;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(227, 215, 215);
+    transition: 0.5s ease-out;
+   
+}
+li a{
+
+    color: rgb(255, 245, 245);
+    text-align: center;
+    padding-top: 10px;
+    padding: 6px 5px;
+    text-decoration: none;
+}
+li a:hover{
+        background-color: rgba(255, 255, 255, 0.661);
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+}
+#btn
+{
+    
+    height: 40px;
+    width: 80px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);    
+    transition: 0.8s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+#btn:hover{
+        background-color: rgba(194, 194, 194, 0.507);
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+}
+
+#head{
+    position: absolute;
+    color:  rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 300px;
+    margin-left: 80px;
+    word-spacing: 5px;
+}
+#btn1
+{
+
+    height: 40px;
+    width: 80px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);    
+    transition: 0.8s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+#btn1:hover{
+        background-color: rgba(194, 194, 194, 0.507);
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+}
+p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-top: 360px;
+    margin-left: 80px;
+}
+
+.btn-section{
+    display: flex;
+}

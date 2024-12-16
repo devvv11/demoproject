@@ -1,0 +1,107 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.header-section
+{
+    margin-bottom: 700px;
+    font-size: 30px;
+    height: 40px;
+    width: 1525px;
+    background-color: rgba(237, 237, 237, 0.635);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+input[type=submit]
+{
+    height: 30px;
+    width: 70px;
+    font-size: 16px;
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border:2px solid white;
+}
+input[type=submit]:hover
+{
+    background-color: aliceblue;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+}
+.form-box
+{
+    height: 800px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-top: 30px;
+    text-align: center;
+}
+select
+{
+    height: 35px;
+    width: 550px;
+    user-select: none;
+    background-color: transparent;
+    color: azure;
+    transition: 0.5s ease-in-out;
+}
+label
+{
+    font-size: 20px;
+    color: white;
+    
+}
+input[type=text]
+{
+    height: 35px;
+    width: 550px;
+    color: white;
+}
+input[type=text]
+{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    opacity: 0.5;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    border-bottom:2px solid white;
+}
+input[type=text]:hover
+{
+    border-radius: 8px;
+}
+
+::placeholder{
+    color: white;
+}
+option{
+    color: black;
+}
+#btn
+{
+    height: 30px;
+    width: 70px;
+    font-size: 16px;
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border:2px solid white;
+}
+#btn:hover
+{
+    background-color: aliceblue;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+}
